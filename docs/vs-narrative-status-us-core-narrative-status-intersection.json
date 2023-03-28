@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-54",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-54",
+  "name" : "IntersectionNarrativeStatusAndNarrativeStatus",
+  "title" : "Intersection of NarrativeStatus And US Core Narrative Status",
+  "status" : "draft",
+  "date" : "2023-03-27T16:35:12-07:00",
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/narrative-status",
+      "code" : "generated",
+      "display" : "Generated"
+    },
+    {
+      "system" : "http://hl7.org/fhir/narrative-status",
+      "code" : "additional",
+      "display" : "Additional"
+    }]
+  }
+}

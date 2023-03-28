@@ -1,0 +1,20 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-9",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-9",
+  "name" : "IntersectionUSCoreDocumentReferencesCategoryCodesAndUSCoreDocumentReferencesCategoryCodes",
+  "title" : "Intersection of US Core DocumentReferences Category Codes And US Core DocumentReferences Category Codes",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:12-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "concept" : [{
+    "code" : "clinical-note",
+    "display" : "Clinical Note",
+    "definition" : "Part of health record where healthcare professionals record details to document a patient's clinical status or achievements during the course of a hospitalization or over the course of outpatient care ([Wikipedia](https://en.wikipedia.org/wiki/Progress_note))"
+  }]
+}

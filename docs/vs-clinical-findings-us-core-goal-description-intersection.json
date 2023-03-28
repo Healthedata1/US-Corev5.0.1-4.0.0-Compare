@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-105",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-105",
+  "name" : "IntersectionSNOMEDCTClinicalFindingsAndUSCoreGoalCodes",
+  "title" : "Intersection of SNOMED CT Clinical Findings And US Core Goal Codes",
+  "status" : "draft",
+  "date" : "2023-03-27T16:35:13-07:00"
+}

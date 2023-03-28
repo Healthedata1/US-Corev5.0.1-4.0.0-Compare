@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-194",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-194",
+  "name" : "UnionNarrativeStatusAndNarrativeStatus",
+  "title" : "Union of US Core Narrative Status And US Core Narrative Status",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:16-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "additional",
+        "display" : "additional"
+      },
+      {
+        "code" : "generated",
+        "display" : "generated"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/narrative-status",
+      "code" : "additional",
+      "display" : "additional"
+    },
+    {
+      "system" : "http://hl7.org/fhir/narrative-status",
+      "code" : "generated",
+      "display" : "generated"
+    }]
+  }
+}

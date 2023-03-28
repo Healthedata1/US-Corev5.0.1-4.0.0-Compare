@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-171",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-171",
+  "name" : "IntersectionUSCoreClinicalNoteTypeAndUSCoreClinicalNoteType",
+  "title" : "Intersection of US Core Clinical Note Type And US Core Clinical Note Type",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:15-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "18842-5"
+      },
+      {
+        "code" : "11488-4"
+      },
+      {
+        "code" : "34117-2"
+      },
+      {
+        "code" : "11506-3"
+      },
+      {
+        "code" : "28570-0"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "18842-5",
+      "display" : "Discharge summary"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "11488-4",
+      "display" : "Consult note"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "34117-2",
+      "display" : "History and physical note"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "11506-3",
+      "display" : "Progress note"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "28570-0",
+      "display" : "Procedure note"
+    }]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-162",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-162",
+  "name" : "IntersectionOmbEthnicityCategoriesAndOmbEthnicityCategories",
+  "title" : "Intersection of OMB Ethnicity Categories And OMB Ethnicity Categories",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:14-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "expansion" : {
+    "contains" : [{
+      "system" : "urn:oid:2.16.840.1.113883.6.238",
+      "code" : "2135-2",
+      "display" : "Hispanic or Latino"
+    },
+    {
+      "system" : "urn:oid:2.16.840.1.113883.6.238",
+      "code" : "2186-5",
+      "display" : "Non Hispanic or Latino"
+    }]
+  }
+}

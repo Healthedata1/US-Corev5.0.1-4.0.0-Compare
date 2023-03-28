@@ -1,0 +1,47 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-6",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-6",
+  "name" : "IntersectionUSCoreConditionCategoryExtensionCodesAndUSCoreConditionCategoryExtensionCodes",
+  "title" : "Intersection of US Core Condition Category Extension Codes And US Core Condition Category Extension Codes",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:12-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "property" : [{
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept. One of active, experimental, deprecated,        retired",
+    "type" : "code"
+  }],
+  "concept" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-replacedby",
+      "valueCoding" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+        "code" : "problem-list-item",
+        "display" : "Problem List Item"
+      }
+    }],
+    "code" : "problem",
+    "display" : "Problem",
+    "definition" : "The patients problems as identified by the provider(s). Items on the provider’s problem list",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "health-concern",
+    "display" : "Health Concern",
+    "definition" : "Additional health concerns from other stakeholders which are outside the provider’s problem list."
+  }]
+}

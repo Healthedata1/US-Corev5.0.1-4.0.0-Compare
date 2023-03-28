@@ -1,0 +1,48 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-177",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-177",
+  "name" : "IntersectionUSCoreDiagnosticReportCategoryAndUSCoreDiagnosticReportCategory",
+  "title" : "Intersection of US Core DiagnosticReport Category And US Core Diagnostic Report Category Codes",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:16-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LP29684-5",
+        "display" : "Radiology"
+      },
+      {
+        "code" : "LP29708-2",
+        "display" : "Cardiology"
+      },
+      {
+        "code" : "LP7839-6",
+        "display" : "Pathology"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LP29684-5",
+      "display" : "Radiology"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP29708-2",
+      "display" : "Cardiology"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP7839-6",
+      "display" : "Pathology"
+    }]
+  }
+}

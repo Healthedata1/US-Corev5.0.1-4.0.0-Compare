@@ -1,0 +1,22 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-185",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-185",
+  "name" : "UnionUSCoreDocumentReferenceCategoryAndUSCoreDocumentReferenceCategory",
+  "title" : "Union of US Core DocumentReference Category And US Core DocumentReference Category",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:16-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+      "code" : "clinical-note",
+      "display" : "Clinical Note"
+    }]
+  }
+}

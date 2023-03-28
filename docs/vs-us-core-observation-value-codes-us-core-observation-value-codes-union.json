@@ -1,0 +1,15 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-203",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7f0beed4-46f2-4c2e-a8c8-3ea49f01d5df-203",
+  "name" : "UnionUSCoreObservationValueCodesAndUSCoreObservationValueCodes",
+  "title" : "Union of US Core Observation Value Codes (SNOMED-CT) And US Core Observation Value Codes (SNOMED-CT)",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:16-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }]
+}
